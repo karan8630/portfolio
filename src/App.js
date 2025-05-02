@@ -1,11 +1,10 @@
 
 import './App.css';
-import Navbar from './components/Navbar.js'; // import Navbar component
+import Navbar from './Components/Navbar.js'; // import Navbar component
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-
-import Skill from './components/Skill';
-import Chat from './components/Chat';
+import Home from './Components/Home';
+import Skill from './Components/Skill';
+import Chat from './Components/Chat';
 
 function App() {
   return (
